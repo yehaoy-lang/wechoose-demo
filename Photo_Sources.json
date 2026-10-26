@@ -1,0 +1,37 @@
+[
+  {
+    "imageURL": "https://s3.amazonaws.com/images.scanbuy/2FeCXaxgci4R1nVUXfSe5m/images/00028400768634_C1C1_91b268d6-34f1-464e-b062-316d44ae0da1.png",
+    "sourcePageURL": "https://menu.pepsico.info/0ed3a9d9-73a3-4176-bed9-4a940558fb0d/index.html",
+    "factualnote": "Official PepsiCo product pack asset. A real US 2025 Do Us a Flavor finalist, used as a historical flavour reference for a hypothetical WeChoose campaign. No current China availability or confirmed partnership implied.",
+    "flavourEnglish": "Bacon Grilled Cheese",
+    "filename": "lays-bacon-grilled-cheese.png"
+  },
+  {
+    "imageURL": "https://smartlabel.pepsico.info/028400768658-0001-en-US/images/b53ecbcd-f5da-492e-8e99-e801afa92bca.png",
+    "sourcePageURL": "https://smartlabel.pepsico.info/028400768658-0001-en-US/index.html",
+    "factualnote": "Official PepsiCo SmartLabel pack asset, information updated 7 March 2025. A real US 2025 Do Us a Flavor finalist, used as a historical flavour reference for a hypothetical WeChoose campaign. No current China availability or confirmed partnership implied.",
+    "flavourEnglish": "Valentina & Lime",
+    "filename": "lays-valentina-lime.png"
+  },
+  {
+    "imageURL": "https://smartlabel.pepsico.info/028400768672-0001-en-US/images/7cfbe881-13b3-4911-8ebf-4bf08087f462.png",
+    "sourcePageURL": "https://smartlabel.pepsico.info/028400768672-0001-en-US/index.html",
+    "factualnote": "Official PepsiCo SmartLabel pack asset, information updated 7 March 2025. A real US 2025 Do Us a Flavor finalist, used as a historical flavour reference for a hypothetical WeChoose campaign. No current China availability or confirmed partnership implied.",
+    "flavourEnglish": "Wavy Korean-Style Fried Chicken",
+    "filename": "lays-korean-fried-chicken.png"
+  },
+  {
+    "flavourEnglish": "Classic",
+    "imageURL": "https://cms.lays.com/sites/lays.com/files//2025-12/Lays_XL_Classic_Laydown.png",
+    "filename": "lays-classic.png",
+    "factualnote": "Real official Lays product pack. Used as a US flavour reference for an illustrative WeChoose campaign; no current China availability or confirmed partnership implied.",
+    "sourcePageURL": "https://www.lays.com/products/lays-classic-potato-chips"
+  },
+  {
+    "flavourEnglish": "Sour Cream & Onion",
+    "imageURL": "https://smartlabel.pepsico.info/028400199636-0032-en-US/images/b9ae4474-280d-4f87-9769-ba656d0fdb8a.png",
+    "filename": "lays-sour-cream-onion.png",
+    "factualnote": "Real official PepsiCo SmartLabel product pack. Used as a US flavour reference for an illustrative WeChoose campaign; no current China availability or confirmed partnership implied.",
+    "sourcePageURL": "https://smartlabel.pepsico.info/028400199636-0032-en-US/index.html"
+  }
+]

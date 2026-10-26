@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1046ff">
+  <meta name="description" content="WeChoose Sector 2: an interactive presentation of choosing, scanning and keeping a friend's shopping picks secret.">
+  <title>WeChoose — Choose & Scan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-action="map" aria-label="WeChoose floor plan"><img src="assets/logo.svg" alt=""><span>WeChoose</span></a>
+    <div class="section-label"><span>02</span> Choose & Scan</div>
+    <nav class="top-actions" aria-label="Presentation controls"><button class="text-button" data-action="map">Floor plan</button><button class="text-button" data-action="notes" aria-expanded="false">Speaker notes</button><button class="text-button" data-action="reset">Restart</button></nav>
+  </header>
+  <main id="app"></main>
+  <div id="overlay"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
