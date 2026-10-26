@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1046ff">
+  <meta name="description" content="The WeChoose shared self-checkout: reveal five questions, see the result, then choose what to purchase.">
+  <title>WeChoose — Reveal & checkout</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body class="checkout-body">
+  <header class="checkout-topbar">
+    <a class="brand" href="demo.html" aria-label="WeChoose demo home"><img src="assets/logo.svg" alt=""><span>WeChoose</span></a>
+    <nav class="checkout-journey" aria-label="Service stages"><a href="prepare.html"><b>01</b> Prepare</a><a href="index.html?view=aisle&campaign=lays"><b>02</b> Choose & scan</a><span aria-current="page"><b>03</b> Reveal & checkout</span></nav>
+    <div class="checkout-view-actions"><button class="text-button" data-action="notes">Presenter notes</button><button class="kiosk-view-toggle" data-action="kiosk-view" aria-pressed="false">Kiosk view</button></div>
+  </header>
+  <main class="checkout-layout">
+    <aside id="checkout-story" class="checkout-story"></aside>
+    <section class="kiosk-column" aria-label="Shared supermarket self-checkout">
+      <div class="kiosk-label"><span><i></i> SHARED SELF-CHECKOUT</span><b>3:4 touchscreen</b></div>
+      <div class="kiosk-shell"><div class="kiosk-camera" aria-hidden="true"></div><div id="checkout-screen" class="checkout-screen"></div></div>
+      <div class="kiosk-base" aria-hidden="true"><span></span></div>
+      <p class="kiosk-caption">Presentation prototype · one shared screen · simulated checkout</p>
+    </section>
+  </main>
+  <div id="checkout-overlay"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="catalog.js"></script>
+  <script src="game-state.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>

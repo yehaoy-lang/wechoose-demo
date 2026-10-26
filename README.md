@@ -1,30 +1,39 @@
-# WeChoose
+# WeChoose — Complete Service Prototype V2.0
 
-An interactive prototype of a friend-to-friend shopping service in a physical retail setting.
+A friend-to-friend shopping service demonstrated through two private phone interfaces and a shared supermarket self-checkout.
 
-This demonstration covers Sector 2: choosing real products for a friend, recording a selection, keeping it secret, and moving to the checkout reveal. The interface and presentation content are in English.
+## Open
 
-## Open the prototype
+- [Demo home](https://yehaoy-lang.github.io/wechoose-demo/demo.html)
+- [Private preparation](https://yehaoy-lang.github.io/wechoose-demo/prepare.html?player=A)
+- [Choose and scan](https://yehaoy-lang.github.io/wechoose-demo/index.html?view=aisle&campaign=lays)
+- [Shared self-checkout](https://yehaoy-lang.github.io/wechoose-demo/checkout.html)
 
-- [Lay's edition](https://yehaoy-lang.github.io/wechoose-demo/?view=aisle&campaign=lays)
-- [Lay's question preview](https://yehaoy-lang.github.io/wechoose-demo/?view=aisle&campaign=lays&preview=question)
-- [Daily edition](https://yehaoy-lang.github.io/wechoose-demo/?view=aisle&campaign=daily)
-- [Floor plan entry](https://yehaoy-lang.github.io/wechoose-demo/)
+The demo home includes a confirmed shortcut to load a checkout-ready example and a separate Lay’s Q2 preview. These replace the current browser-local game only after confirmation.
 
-## Demo scope
+## Connected journey
 
-The prototype simulates two phones in one browser. Scan actions use a simulated product picker. Progress is stored in that browser's local storage. It does not connect to live store inventory, process payments, or synchronise separate devices.
+1. Each player privately saves a small wish and a challenge flavour, with an optional shared hint.
+2. Each chooses five products for the other person and separately prepares a possible final punishment. The original phone layout and five-pack Lay’s campaign composition are retained.
+3. Both submit. The shared checkout reveals ten normal selections one at a time, product first and answer second.
+4. Q2 awards the chooser one point for matching the recipient’s locked flavour. Q3 awards the recipient one point for guessing the chooser’s locked motive. Each player can earn up to two points. Q1 wish matching remains under review and is not automatically scored; Q4 and Q5 invite conversation.
+5. The final score is explicitly announced before the winner may reveal their extra item. A tie skips punishment. Either participant may keep the challenge voluntary. Revealing or accepting a challenge does not automatically buy the product.
+6. Review retained items, return unwanted ones, add ordinary groceries, and show separate A/B bill totals. Only an explicitly selected, revealed punishment item can be purchased. Demo payment produces a fixed sample receipt.
 
-Each player makes five normal selections and prepares one separate possible punishment item. The punishment is outside the five questions and adds no points. Selections stay hidden during this sector; checkout reveal and scoring belong to the next service stage.
+## Reward assumptions
 
-## Hosting
+Model B is demonstrated using a completion discount plus a bonus for each person’s own points. The example defaults to 5% plus 2% per point, adjustable on the demo home before revealing begins. All prices, rates, product eligibility and per-person settlement are illustrative assumptions for discussion, not agreed retail terms or actual offers.
 
-Buildless HTML, CSS and JavaScript. GitHub Pages serves the repository root from the main branch. All runtime assets use relative URLs so the project works below /wechoose-demo/.
+## Presentation mode
 
-For local review, serve this folder with a static HTTP server and open index.html.
+Self-checkout uses a portrait 3:4 concept touchscreen rather than a phone. “Kiosk view” hides explanatory context and enlarges the shared display. It is an illustrative screen proportion, not a manufacturer’s engineering specification.
 
-## Product references
+## Local use
 
-The Lay's edition is an illustrative partnership concept, not an announced or confirmed collaboration. Product pack imagery belongs to its respective rights holders. The referenced products are US product examples; current China availability is not implied. Source URLs are recorded in Photo_Sources.json and accessible through the prototype's Photo sources control.
+On Windows, double-click `Open_WeChoose.cmd` with Python installed. Or serve this folder with any static HTTP server and open `demo.html`. Keep assets and fonts beside the pages. Relative paths also support the `/wechoose-demo/` GitHub Pages subpath.
 
-Font licensing is included in assets/fonts/OFL.txt. No general licence for third-party brand artwork is granted by this repository.
+## Prototype boundaries
+
+A/B phones and kiosk share local storage in one browser on the same origin. This does not provide real multi-device pairing, account security, camera scanning, stock data, POS integration or payment processing. Separate computers can each open the public website, but their games do not synchronise with each other.
+
+Lay’s is an illustrative collaboration, not a confirmed partnership. Product photographs are real product references; no current local availability is implied. Sources are recorded in `Photo_Sources.json`. Font licensing is included in `assets/fonts/OFL.txt`; third-party brand artwork remains with its respective rights holders.

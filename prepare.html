@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1046ff">
+  <title>WeChoose — Prepare your secret answers</title>
+  <meta name="description" content="Save your own secret answers before choosing real products for your friend.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="prepare.css">
+</head>
+<body class="preplay-body">
+  <header class="topbar">
+    <a class="brand" href="prepare.html" aria-label="WeChoose preparation"><img src="assets/logo.svg" alt=""><span>WeChoose</span></a>
+    <nav class="journey-nav" aria-label="Service stages">
+      <span class="journey-current" aria-current="page"><b>01</b> Prepare</span>
+      <button data-action="aisle"><b>02</b> Choose & scan</button>
+      <button data-action="checkout"><b>03</b> Reveal & checkout</button>
+    </nav>
+    <nav class="top-actions" aria-label="Presentation controls"><a class="text-button" href="demo.html">Demo home</a><button class="text-button restart-control" data-action="restart">Restart</button></nav>
+  </header>
+  <main id="prepare-app"></main>
+  <div id="overlay"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="catalog.js"></script>
+  <script src="game-state.js"></script>
+  <script src="prepare.js"></script>
+</body>
+</html>

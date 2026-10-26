@@ -7,16 +7,19 @@
   <meta name="description" content="WeChoose Sector 2: an interactive presentation of choosing, scanning and keeping a friend's shopping picks secret.">
   <title>WeChoose — Choose & Scan</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="prepare.css">
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="#" data-action="map" aria-label="WeChoose floor plan"><img src="assets/logo.svg" alt=""><span>WeChoose</span></a>
-    <div class="section-label"><span>02</span> Choose & Scan</div>
-    <nav class="top-actions" aria-label="Presentation controls"><button class="text-button" data-action="map">Floor plan</button><button class="text-button" data-action="notes" aria-expanded="false">Speaker notes</button><button class="text-button" data-action="reset">Restart</button></nav>
+    <nav class="journey-nav" aria-label="Service stages"><a id="prepare-link" href="prepare.html"><b>01</b> Prepare</a><span class="journey-current" aria-current="page"><b>02</b> Choose & scan</span><button data-action="checkout"><b>03</b> Reveal & checkout</button></nav>
+    <nav class="top-actions" aria-label="Presentation controls"><a class="text-button" href="demo.html">Demo home</a><button class="text-button" data-action="map">Floor plan</button><button class="text-button" data-action="notes" aria-expanded="false">Speaker notes</button><button class="text-button" data-action="reset">Restart</button></nav>
   </header>
   <main id="app"></main>
   <div id="overlay"></div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="catalog.js"></script>
+  <script src="game-state.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
