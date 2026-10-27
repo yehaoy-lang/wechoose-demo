@@ -4,6 +4,8 @@ A friend-to-friend shopping service demonstrated through two private phone inter
 
 ## Open
 
+V2.0 is available on GitHub Pages under the original `yehaoy-lang/wechoose-demo` repository. Use the demo home below to enter the complete journey.
+
 - [Demo home](https://yehaoy-lang.github.io/wechoose-demo/demo.html)
 - [Private preparation](https://yehaoy-lang.github.io/wechoose-demo/prepare.html?player=A)
 - [Choose and scan](https://yehaoy-lang.github.io/wechoose-demo/index.html?view=aisle&campaign=lays)
@@ -30,7 +32,7 @@ Self-checkout uses a portrait 3:4 concept touchscreen rather than a phone. “Ki
 
 ## Local use
 
-On Windows, double-click `Open_WeChoose.cmd` with Python installed. Or serve this folder with any static HTTP server and open `demo.html`. Keep assets and fonts beside the pages. Relative paths also support the `/wechoose-demo/` GitHub Pages subpath.
+Serve this folder with any static HTTP server and open `demo.html`. The separately packaged Windows edition also includes `Open_WeChoose.cmd` for launching with Python installed. Keep assets and fonts beside the pages. Relative paths also support the `/wechoose-demo/` GitHub Pages subpath.
 
 ## Prototype boundaries
 
